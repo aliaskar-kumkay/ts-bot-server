@@ -1,0 +1,29 @@
+{
+  "name": "ts-bot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliaskar-kumkay/ts-bot-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aliaskar-kumkay/ts-bot-server/issues"
+  },
+  "homepage": "https://github.com/aliaskar-kumkay/ts-bot-server#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "wrangler": "^4.105.0"
+  },
+  "dependencies": {
+    "hono": "^4.12.27"
+  }
+}

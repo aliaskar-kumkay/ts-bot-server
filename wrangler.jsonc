@@ -1,0 +1,12 @@
+{
+	"name": "ts-bot-server",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-06-28",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ts-bot-db",
+			"database_id": "d22b58ff-dc21-4e3e-b3c2-32c60ec62533"
+		}
+	]
+}
