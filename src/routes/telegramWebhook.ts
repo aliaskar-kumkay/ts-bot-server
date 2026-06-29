@@ -36,7 +36,7 @@ export async function handleTelegramWebhook(c: AppContext) {
       return c.text("OK");
 
     case "/notify":
-      await handleNotify(c.env.BOT_TOKEN, chatId);
+      await handleNotify(c.env.DB, c.env.BOT_TOKEN, chatId, text);
       return c.text("OK");
 
     case null:
