@@ -1,4 +1,5 @@
 export async function findTelegramUsername(
+    db: D1Database,
   db: D1Database,
   input: string
 ): Promise<string | null> {
