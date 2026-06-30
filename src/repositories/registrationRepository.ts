@@ -13,6 +13,7 @@ export async function saveToken(
         .bind(token, username)
         .run();
 }
+
 export async function getUsernameByToken(
     db: D1Database,
     token: string
